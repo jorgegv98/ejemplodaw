@@ -32,7 +32,7 @@ echo ' echo "<head>";
         echo "<link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />";
     echo "</head>";';
 
-    echo '<h1 class=g--background-rojo-1>JORGE GARCIA</h1>';
+    echo '<div class=g--background-verde-1>JORGE GARCIA</div>';
     echo 'Contenido de base de datos: '.$result;
 
 var_dump($result); 
