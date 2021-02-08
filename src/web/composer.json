@@ -1,9 +1,9 @@
 {
-    "name": "cesar/lorenzo",
+    "name": "jorge/app",
     "authors": [
         {
-            "name": "César Guijarro",
-            "email": "cguijarro@fpmislata.com"
+            "name": "Jorge Garcia",
+            "email": "jorgegvilla98@gmail.com"
         }
     ],
     "require": {
