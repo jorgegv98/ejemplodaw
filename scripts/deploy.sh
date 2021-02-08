@@ -25,6 +25,9 @@ docker container run \
 --name apache_jorge \
 php:7.2-apache
 echo "Creado contenedor de apache"
+docker container exec -it apache_jorge docker-php-ext-install pdo pdo_mysql
+docker container exec -it apache_jorge a2enmod rewrite
+docker container restart apache_jorge
 
 docker container run \
 -d \
