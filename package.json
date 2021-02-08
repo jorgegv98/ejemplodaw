@@ -1,0 +1,20 @@
+{
+  "name": "jorgeapp",
+  "version": "1.0.0",
+  "description": "daw2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgegv98/ejemplodaw.git"
+  },
+  "author": "Jorge Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgegv98/ejemplodaw/issues"
+  },
+  "homepage": "https://github.com/jorgegv98/ejemplodaw#readme"
+}
