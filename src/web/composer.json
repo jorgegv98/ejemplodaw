@@ -1,0 +1,12 @@
+{
+    "name": "cesar/lorenzo",
+    "authors": [
+        {
+            "name": "César Guijarro",
+            "email": "cguijarro@fpmislata.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.1"
+    }
+}
