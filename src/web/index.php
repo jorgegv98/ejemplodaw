@@ -31,7 +31,7 @@ echo '<head>';
     echo '</head>';
 
 echo '<h1>Ejercicio 7</h1>';
-    echo '<div class=g--background-principal-1>JORGE GARCIA</div>';
+    echo '<div class="g--background-principal-1">JORGE GARCIA</div>';
     echo 'Contenido de base de datos: '.$result;
 
 var_dump($result); 
