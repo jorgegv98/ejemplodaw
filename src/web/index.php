@@ -26,7 +26,7 @@ $sql = "SELECT * FROM info";
 $ps = $pdo->prepare($sql);
 $ps->execute();
 $result = $ps->columnCount()>0? $ps->fetchAll(\PDO::FETCH_ASSOC): $ps->rowCount(); 
-echo ' echo '<head>';
+echo '<head>';
         echo '<link rel="stylesheet" type="text/css" href="css/main.css"/>';
     echo '</head>';
 
