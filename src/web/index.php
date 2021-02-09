@@ -26,12 +26,11 @@ $sql = "SELECT * FROM info";
 $ps = $pdo->prepare($sql);
 $ps->execute();
 $result = $ps->columnCount()>0? $ps->fetchAll(\PDO::FETCH_ASSOC): $ps->rowCount(); 
+echo ' echo '<head>';
+        echo '<link rel="stylesheet" type="text/css" href="css/main.css"/>';
+    echo '</head>';
 
 echo '<h1>Ejercicio 7</h1>';
-echo ' echo "<head>";
-        echo "<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />";
-    echo "</head>";';
-
     echo '<div class=g--background-principal-1>JORGE GARCIA</div>';
     echo 'Contenido de base de datos: '.$result;
 
