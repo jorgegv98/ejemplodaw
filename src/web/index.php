@@ -29,7 +29,7 @@ $result = $ps->columnCount()>0? $ps->fetchAll(\PDO::FETCH_ASSOC): $ps->rowCount(
 
 echo '<h1>Ejercicio 7</h1>';
 echo ' echo "<head>";
-        echo "<link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />";
+        echo "<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />";
     echo "</head>";';
 
     echo '<div class=g--background-verde-1>JORGE GARCIA</div>';
