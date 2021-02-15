@@ -1,7 +1,7 @@
 @each $color-key, $color-value in getColorKeys() {
     @for $i from 1 to 9 {
       .g--background-color-#{$color-key}-#{$i}{
-        background-color: getColor($color-key, $i);
+        background-color: red;
       }
     }
   }
@@ -9,7 +9,7 @@
   @each $color-key, $color-value in getColorKeys() {
     @for $i from 1 to 9 {
       .g--color-#{$color-key}-#{$i}{
-        background-color: getColor($color-key, $i);
+        background-color: red;
       }
     }
   }
